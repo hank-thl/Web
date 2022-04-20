@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid #AC915D;
+        }
+    </style>
+</head>
+<body>
+    <!-- 10. 在<body>裡面放入一個表格 -->
+    <!--  標題列： A   B   C   D  -->
+    <!--  第一列：A1  B1  C1  D1  -->
+    <!--  第二列：A2  B2  C2  D2  -->
+    <!--  第三列：A3  B3  C3  D3  -->
+    <!--  第四列：A4  B4  C4  D4  -->
+
+    <table>
+        <tr>
+            <th colspan="4">A</th>
+            <!--<th>B</th>
+            <th>C</th>
+            <th>D</th>-->
+        </tr>
+        <tr>
+            <th rowspan="2">A1</th>
+            <th>B1</th>
+            <th rowspan="2">C1</th>
+            <th>D1</th>
+        </tr>
+        <tr>
+            <!-- <th>A2</th> -->
+            <th>B2</th>
+            <!-- <th>C2</th> -->
+            <th>D2</th>
+        </tr>
+        <tr>
+            <th rowspan="2">A3</th>
+            <th>B3</th>
+            <th rowspan="2">C3</th>
+            <th>D3</th>
+        </tr>
+        <tr>
+            <!-- <th>A4</th> -->
+            <th>B4</th>
+            <!-- <th>C4</th> -->
+            <th>D4</th>
+        </tr>
+    </table>
+</body>
+</html>
