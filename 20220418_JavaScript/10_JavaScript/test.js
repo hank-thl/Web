@@ -1,1 +1,0 @@
-document.getElementById('demo').innerText = "雷丘";
