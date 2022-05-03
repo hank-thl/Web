@@ -2,118 +2,139 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="demo.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="sideNavigation.css"> -->
-  <link rel="stylesheet" href="search.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
 
-  <script src="jquery-3.6.0.js"></script>
+
+    <script src="jquery-3.6.0.js"></script>
 </head>
 
 <body>
-  <!-- bar -->
-  <header>
+    <!-- bar -->
+
     <nav class="topnav">
-      <div class="navDesktop">
-        <a class="active" href="#home"><img src="img/Icon.jpeg"></a>
-        <ul class="navActionMenu" style="list-style-type:none; display: flex;margin: auto;">
-          <li>
-            <a href="#login"><i class="fa fa-user"></i></a>
-          </li>
-          <li>
-            <a href="#search"><i class="fa fa-search"></i></a>
-          </li>
-          <li>
-            <a href="#Comment"><i class="fa fa-comment-o"></i></a>
-          </li>
-          <li>
-            <a href="#shopingCar"> <i class="fa fa-shopping-cart"></i></a>
-          </li>
-        </ul>
-      </div>
+        <div class="navDesktop">
+            <a class="active" href="#home"><img src="img/Icon.jpeg"></a>
+            <ul class="navActionMenu">
+                <li>
+                    <a href="#login"><i class="fa fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="#search"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                    <a href="#Comment"><i class="fa fa-comment-o"></i></a>
+                </li>
+                <li>
+                    <a href="#shopingCar"> <i class="fa fa-shopping-cart"></i></a>
+                </li>
+            </ul>
 
-      <div class="navMobile">
-        <a class="active" href="#home"><img src="img/Icon.jpeg"></a>
-        <ul class="navActionMenu">
-          <li>
-            <a id="login" href="#login"><i class="fa fa-user"></i></a>
-          </li>
-          <li>
-            <a href="#search" class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></a>
-          </li>
-          <li>
-            <a href="#shopingCar"><i class="fa fa-shopping-cart"></i></a>
-          </li>
-          <li>
-            <a onclick="openNav()"><i class="fa fa-bars"></i></a>
-          </li>
-        </ul>
-      </div>
+        </div>
+
+        <div class="navMobile">
+            <a class="active" href="#home"><img src="img/Icon.jpeg"></a>
+
+            <ul class="navActionMenu">
+                <li>
+                    <a id="login" href="#login"><i class="fa fa-user"></i></a>
+                </li>
+                <li>
+                    <a href="#search" class="openBtn" onclick="openSearch()"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                    <a href="#shopingCar"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+                <li>
+                    <a onclick="openNav()"><i class="fa fa-bars"></i></a>
+                </li>
+            </ul>
+        </div>
+
     </nav>
-    <nav class="sideNav">
 
-      <div id="mySidenav" class="sidenav">
+    <div id="myNavBar" class="navBar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="mySidenav" class="sidenav">
         <button class="dropdown-btn">全部商品
-          <i class="fa fa-caret-down"></i>
+            <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-          <button class="dropdown-btn">飾品
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">耳環/Earrings</a>
-            <a href="#">戒指/Rings</a>
-            <a href="#">項鍊/Necklace</a>
-            <a href="#about">【無耳洞女孩/耳夾專區💗】</a>
-            <a href="#services">【純銀耳針式耳環💕】</a>
-            <a href="#clients">【鎖骨的美吸引你💞】</a>
-          </div>
+            <button class="dropdown-btn">飾品
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">耳環/Earrings</a>
+                <a href="#">戒指/Rings</a>
+                <a href="#">項鍊/Necklace</a>
+                <a href="#about">【無耳洞女孩/耳夾專區💗】</a>
+                <a href="#services">【純銀耳針式耳環💕】</a>
+                <a href="#clients">【鎖骨的美吸引你💞】</a>
+            </div>
 
 
         </div>
         <div class="menuSectionHeader">帳戶</div>
         <a href="#contact">Contact</a>
         <button class="dropdown-btn">Dropdown
-          <i class="fa fa-caret-down"></i>
+            <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
         </div>
         <a href="#contact">Search</a>
-      </div>
-    </nav>
+    </div>
+
 
 
     <div id="myOverlay" class="overlay">
-      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-      <div class="overlay-content">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
 
     </div>
-  </header>
-  <main onclick="closeNav()" style="height: 1000px;  padding-top: 0px;">
-    <div id="banner" style=" padding-top: 10px;">
-      <a href=""><img src="img/banner.jpeg" alt=""></a>
-    </div>
-  </main>
-  <footer onclick="closeNav()">
 
-  </footer>
+    <main onclick="closeNav()" style="height: 1000px;  padding-top: 0px;">
+        <div id="banner" style=" padding-top: 10px;">
+            <a href=""><img src="img/banner.jpeg" alt=""></a>
+        </div>
+    </main>
+    <footer onclick="closeNav()">
+
+    </footer>
 
 
 
-  <script>
-    console.log($('nav').css('height'));
+    <script>
+        console.log($('nav').css('height'));
 
-  </script>
-  <script src="demo.js"></script>
+    </script>
+    <script src="demo.js"></script>
 </body>
 
 </html>
