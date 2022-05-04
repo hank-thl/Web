@@ -150,6 +150,15 @@
         display: block;
     }
 
+    .wrap {
+        width: 1200px;
+        margin: auto;
+        /* background: #ccc; */
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
 }
 
 
@@ -268,6 +277,10 @@
         display: none;
     }
 
+    .wrap {
+        display: none;
+    }
+
     @media screen and (max-height: 450px) {
         .sidenav {
             padding-top: 15px;
@@ -313,7 +326,7 @@ body {
 
 #banner img {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 
 }
@@ -383,4 +396,21 @@ body {
 
 .overlay button:hover {
     background: #bbb;
+}
+
+
+/* ------------------------------------------- */
+
+
+.item {
+    width: 380px;
+    margin: 10px 10px;
+    background-color: #ffa;
+    box-sizing: border-box;
+    /* padding: 5px; */
+}
+
+.item p {
+    margin: 5px 10px;
+
 }
