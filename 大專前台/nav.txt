@@ -1,0 +1,106 @@
+<nav class="hidden-xs">
+            <div class="container">
+                <div class="nav-inner">
+                    <!-- BEGIN NAV -->
+                    <ul id="nav" class="hidden-xs">
+                        <li class="level0 parent drop-menu">
+                            <a href="index.html" class="level-top"><span>現貨速達🔥</span></a>
+                        </li>
+                        <li class="mega-menu">
+                            <a class="level-top" href="grid.html"><span>禮物推薦🎁</span></a>
+                            <div class="level0-wrapper dropdown-6col">
+                                <div class="container">
+                                    <div class="level0-wrapper2">
+                                        <div class="nav-block nav-block-center">
+                                            <ul class="level0">
+                                                <li class="level3 parent item" style="width: 50% !important;"><a
+                                                        href="grid.html"><span>預算內禮物推薦</span></a>
+                                                    <ul class="level1">
+                                                        <li class="level2-1"><a
+                                                                href="grid.html"><span>預算500元以下．禮物推薦</span></a></li>
+                                                        <li class="level2-1"><a
+                                                                href="grid.html"><span>預算500~1000元．禮物推薦</span></a></li>
+                                                        <li class="level2-1"><a
+                                                                href="grid.html"><span>預算1000元以上．禮物推薦</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="level3 parent item"><a
+                                                        href="grid.html"><span>生日禮物推薦</span></a>
+                                                    <ul class="level1">
+                                                        <li class="level2-1"><a
+                                                                href="grid.html"><span>好友親辜．禮物推薦</span></a></li>
+                                                        <li class="level2-1"><a
+                                                                href="grid.html"><span>小孩兒童．禮物推薦</span></a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="level0 parent drop-menu"><a href="index.html"
+                                class="level-top"><span>每週二新品95折</span></a>
+                        </li>
+                        <li class="level0 nav-6 level-top drop-menu"><a class="level-top" href="#"><span>全部商品</span></a>
+                            <ul class="level1">
+                                <li class="level2 first"><a href="grid.html"><span>熱銷排行</span></a></li>
+                                <li class="level2"><a href="list.html"><span>本月新品</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="level0 parent drop-menu"><a href="index.html" class="level-top"><span>店長推薦</span></a>
+                        </li>
+                        <li class="level0 nav-6 level-top drop-menu"><a class="level-top" href="#"><span>優惠活動</span></a>
+                            <ul class="level1" style="width: 350px!important;">
+                                <li class="level2 first"><a href="grid.html"><span>本月限定優惠🔥</span></a>
+                                </li>
+                                <li class="level2"><a href="list.html"><span>禮物專區任2件享超取免運</span></a></li>
+                                <li class="level2"><a href=""><span>會員獨享優惠</span></a></li>
+                                <li class="level2"><a href=""><span>外出旅行/野餐系列．滿3件享88折</span></a></li>
+                                <li class="level2"><a href=""><span>抱枕套系列．任選2件9折、4件85折</span></a></li>
+                                <li class="level2"><a href=""><span>門簾系列．任選2入享88折優惠</span></a></li>
+                                <li class="level2"><a href=""><span>拖鞋系列．任選2件9折、4件85折</span></a></li>
+                                <li class="level2"><a href=""><span>購買舒眠床寢系列任兩件，贈Jeidi接地香氛蠟燭</span></a></li>
+                            </ul>
+                        </li>
+                        <li id="nav0" class="level0 parent drop-menu"><a href="index.html"
+                                class="level-top"><span>特別企劃</span></a>
+                            <ul class="level1" style="width: 350px;">
+                                <li class="level2 first"><a href="grid.html"><span>Tasty Martini 弛綠系列｜品牌特別企劃</span></a>
+                                </li>
+                                <li class="level2 first"><a href="grid.html"><span>宇宙迷｜宇宙太空系列企劃</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>butter daily｜奶油日常系列企劃</span></a></li>
+                            </ul>
+                        </li>
+                        <li id="nav1" class="level0 parent drop-menu"><a href="index.html"
+                                class="level-top"><span>獨家設計師款</span></a>
+                            <ul class="level1" style="width: 300px;">
+                                <li class="level2 first"><a href="grid.html"><span>生活訂製｜獨家商品</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>包大山 BAOZI｜插畫聯名</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>草棉谷RONG｜插畫聯名</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>你好工作室 Hello Studio｜插畫聯名</span></a>
+                                </li>
+                                <li class="level2 first"><a href="grid.html"><span>Yuz Drawing Cooking｜插畫聯名</span></a>
+                                </li>
+                                <li class="level2 first"><a href="grid.html"><span>âme sœur｜中性服飾插畫聯名</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>PONPON 蓬蓬獅｜生活倉庫原創設計</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>CHILL ZOO｜韓系動物插畫聯名</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>馬卡龍腳趾 Macaron TOE｜插畫聯名</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="nav2" class="level0 parent drop-menu"><a href="index.html"
+                                class="level-top"><span>外出旅行</span></a>
+                            <ul class="level1">
+                                <li class="level2 first"><a href="grid.html"><span>戶外野餐露營專區</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>外出野餐</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>隨身3C</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>雨傘雨具</span></a></li>
+                                <li class="level2 first"><a href="grid.html"><span>外出收納</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--nav-->
+                </div>
+            </div>
+        </nav>
