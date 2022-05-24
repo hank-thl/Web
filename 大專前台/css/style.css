@@ -83,9 +83,8 @@ button.button.button-clear {
 }
 
 /* list/grid toolbar*/
-.toolbar span.button-active.button-grid,
-{
-background-color: #ed6663 !important;
+.toolbar span.button-active.button-grid {
+    background-color: #ed6663 !important;
 }
 
 .toolbar a.button-grid {
@@ -9114,6 +9113,9 @@ footer .coppyright {
 .footer-address span {
     float: left;
     width: 80%;
+    margin-left: 0px;
+    margin-top: 8px;
+    display: inline-block;
 }
 
 .footer-mob-no span {
@@ -11288,7 +11290,7 @@ a.button.wishlist {
     color: #666;
     line-height: 24px;
     font-size: 15px;
-    font-family: font-family: "circular_std_book", sans-serif;
+    font-family: "circular_std_book", sans-serif;
 }
 
 .popup1 .x {
@@ -12273,7 +12275,7 @@ data-table textarea {
         padding-left: 4px;
     }
 
-    .product-img-box. col-xs-12 {
+    .product-img-box .col-xs-12 {
         width: 300px;
     }
 
@@ -13870,7 +13872,7 @@ data-table textarea {
         padding-left: 4px;
     }
 
-    .product-img-box. col-xs-12 {
+    .product-img-box .col-xs-12 {
         width: 300px;
     }
 
