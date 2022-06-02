@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/jquery.min.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/font-face-css.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/revslider.css" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/hank.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+    <div id="app">
+
+
+        <section class="main-container col2-left-layout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="category-product">
+                            <div class="navbar nav-menu">
+                                <div class="navbar-collapse">
+                                    <div class="new_title">
+                                        <h2>精選商品</h2>
+                                    </div>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </div>
+                            <div class="product-bestseller">
+                                <div class="product-bestseller-content">
+                                    <div class="product-bestseller-list">
+                                        <div class="tab-container">
+                                            <!-- tab product -->
+                                            <div class="tab-panel active" id="tab-1">
+                                                <div class="category-products">
+                                                    <ul class="products-grid">
+                                                        <template v-for="(item, index) in products">
+                                                            <li class="item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                                                <div class="item-inner">
+                                                                    <div class="item-img">
+                                                                        <div class="item-img-info">
+                                                                            <a class="product-image"
+                                                                                title="Lorem ipsum dolor"
+                                                                                href="product_detail.html"><img
+                                                                                    alt="Lorem ipsum dolor"
+                                                                                    :src='item.productImg1' /></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="item-info">
+                                                                        <div class="info-inner">
+                                                                            <div class="item-title">
+                                                                                <a title="Lorem ipsum dolor"
+                                                                                    href=${products.productId}>{{item.productName}}</a>
+                                                                            </div>
+                                                                            <div class="item-content">
+                                                                                <div class="rating">
+                                                                                    <div class="ratings">
+                                                                                        <div class="rating-box">
+                                                                                            <div class="rating width80">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <p class="rating-links">
+                                                                                            <a href="#">1
+                                                                                                Review(s)</a><span
+                                                                                                class="separator">|</span><a
+                                                                                                href="#">Add
+                                                                                                Review</a>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item-price">
+                                                                                    <div class="price-box">
+                                                                                        <span
+                                                                                            class="regular-price"><span
+                                                                                                class="price">{{item.productPrice}}</span></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="action">
+                                                                                    <button class="button btn-cart"
+                                                                                        type="button"
+                                                                                        data-original-title="Add to Cart">
+                                                                                        <span>Add to Cart</span>
+                                                                                    </button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </template>
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- tab product -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div><button onclick="refreshJSON()">更新</button></div>
+        </section>
+    </div>
+    <script>
+
+        let bestSaleList = [{
+            id: "1",
+            img: "products-images/product6.jpg",
+            productLink: "自己生",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "2",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "3",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "4",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "5",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "6",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "7",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }, {
+            id: "8",
+            img: "products-images/product6.jpg",
+            productLink: "product_detail.html",
+            productName: "Lorem ipsum dolor",
+            productPrice: "1111",
+        }
+        ];
+
+        $.get("http://bosian.ddns.net:8080/IIIFinalServlet_war_exploded/ProductServlet?pdaction=Select1", function (e) {
+            bestSaleList = JSON.parse(e);
+
+            const vm = Vue.createApp({
+                data() {
+                    return {
+                        products: bestSaleList
+                    }
+
+                }
+            });
+            vm.mount('#app');
+        });
+
+
+
+
+
+    </script>
+</body>
+
+</html>
